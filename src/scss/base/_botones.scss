@@ -1,0 +1,27 @@
+.boton-amarillo{
+    @include boton($amarillo, inline-block);
+}
+
+.boton-amarillo-block{
+    @include boton($amarillo, block);
+}
+
+.boton-verde{
+    @include boton($verde, inline-block);
+}
+
+.boton-rojo-eliminar{
+    @include boton($rojo, block);
+    width:95%;
+    margin: 0 auto;
+}
+
+.boton-amarillo-actualizar{
+    @include boton($amarillo, block);
+    width:95%;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    padding: .5rem 3rem;
+}
+
+

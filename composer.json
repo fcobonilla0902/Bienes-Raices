@@ -1,0 +1,20 @@
+{
+    "name": "frann/proyecto5_bienes_raices_con_poo",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Frann\\Proyecto5BienesRaicesConPoo\\": "src/"
+        }
+    },
+    "require": {
+        "intervention/image": "^3.11",
+        "phpmailer/phpmailer": "^6.10"
+    },
+    "autoload": {
+        "psr-4": {
+            "Model\\" : "./models",
+            "MVC\\" : "./",
+            "Controllers\\" : "./controllers"
+        }
+    }
+}
